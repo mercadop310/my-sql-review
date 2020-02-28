@@ -17,6 +17,10 @@ npm start
 ## Step 2
 1. Create a table called `tennis` in your schema `database/schema.sql`
 1. Run the schema in the terminal
+-----------------------------------
+/*source database/schema.sql */ in sql shell
+mysql - u peter -p < database/schema.sql ------- in terminal
+-----------------------------
 
 ## Step 3
 1. Create a seeding function in `database/seed.js` to fill your table
